@@ -1,0 +1,1 @@
+// Environment variables that will be merged with defaultConfig and generates config.js file.

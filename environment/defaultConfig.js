@@ -1,0 +1,1 @@
+// Global variables what will be merged with environment variables when building.

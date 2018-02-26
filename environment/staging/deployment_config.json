@@ -1,0 +1,35 @@
+{
+	"clasp": {
+		"scriptId": "Get this from your Apps Script project (file/Project properties / Script ID)"
+	},
+	"script_manifest": {
+	},
+	"publishing": {
+		"version": null,
+		"versionOffset": 1,
+		"appID": "Chrome webstore item Id",
+		"publish": true,
+		"manifest": {
+			"update_url" : "https://clients2.google.com/service/update2/crx",
+			"container" : ["GOOGLE_SPREADSHEET"],
+			"app" : {
+				"background" : {
+					"scripts" : ["background.js"]
+				}
+			},
+			"api_console_project_id" : "Get this from main.crx manifest",
+			"container_info" : {
+				"post_install_tip" : "Post install tip",
+				"container_id" : "Get this from main.crx manifest",
+				"container_version" : "Get this from main.crx manifest"
+			},
+			"manifest_version" : 2,
+			"name" : "[STAGING] Name of the add-on",
+			"icons" : {
+				"16" : "script-icon_16.png",
+				"128" : "script-icon_128.png"
+			},
+			"version" : "0"
+		}
+	}
+}

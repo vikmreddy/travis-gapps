@@ -1,7 +1,6 @@
-/.idea/
 /node_modules/
+/.idea/
+/.grunt/
+/dist/
+/addon_webstore/manifest.json
 
-/build/src/
-/build/cred/
-/build/config/dev_config.json
-/build/addon_webstore_draft.zip

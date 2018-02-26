@@ -1,18 +1,24 @@
 {
-	"name": "GAS-shell",
-	"version": "0.1.0",
-	"description": "Google Apps Script shell project",
-	"license": "UNLICENSED",
-	"repository": {
-		"type": "git",
-		"url": ""
-	},
-	"devDependencies": {
-		"gas-lib": "^1.1.0",
-		"grunt": "^1.0.1",
-		"grunt-contrib-clean": "^1.0.0",
-		"grunt-contrib-copy": "^1.0.0",
-		"jszip": "^3.1.5",
-		"webstore-upload": "0.0.7"
-	}
+  "name": "google-apps-script_travis-ci",
+  "version": "0.0.1",
+  "description": "Apps Script continuous integration with Travis CI",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "gas-lib": "^1.1.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jasmine": "^1.1.0",
+    "jasmine": "^2.8.0",
+    "jit-grunt": "^0.10.0",
+    "jszip": "^3.1.5",
+    "webstore-upload": "0.0.7"
+  }
 }
