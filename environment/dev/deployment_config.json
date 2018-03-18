@@ -1,6 +1,6 @@
 {
 	"clasp": {
-		"scriptId": "Get this from your Apps Script project (file/Project properties / Script ID)"
+		"scriptId": "10aC5NKNw_j1UtaAbsmtSpTi9rfSZz6mQztv_z4gL0m03_5Mniufuhg3F"
 	},
 	"script_manifest": {
 	},
@@ -11,7 +11,7 @@
 		"publish": true,
 		"manifest": {
 			"update_url" : "https://clients2.google.com/service/update2/crx",
-			"container" : ["GOOGLE_SPREADSHEET"],
+			"container" : ["GOOGLE_SLIDES"],
 			"app" : {
 				"background" : {
 					"scripts" : ["background.js"]
@@ -24,7 +24,7 @@
 				"container_version" : "Get this from main.crx manifest"
 			},
 			"manifest_version" : 2,
-			"name" : "[DEV] Name of the add-on",
+			"name" : "[DEV] Captivate-AI",
 			"icons" : {
 				"16" : "script-icon_16.png",
 				"128" : "script-icon_128.png"
