@@ -285,7 +285,7 @@ module.exports = function(grunt) {
 
     grunt.registerTask('build', [
         'jasmine',
-        'clean',
+        // 'clean',
         'copy',
         'concat',
         'config:clasp',
