@@ -19,3 +19,7 @@ deploy:
   on:
       all_branches: true
       condition: $IS_KNOWN_ENV = true
+
+notifications:
+  email:
+    - vikram_reddy@berkeley.edu
